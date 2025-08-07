@@ -1,22 +1,41 @@
 import 'package:flutter/material.dart';
 import 'screens/home_screen.dart';
+import 'screens/settings_screen.dart';
+import 'screens/privacy_policy.dart';
+import 'screens/terms_conditions.dart';
 
 void main() {
-  runApp(const SilvraVpnApp());
+  runApp(const MyApp());
 }
 
-class SilvraVpnApp extends StatelessWidget {
-  const SilvraVpnApp({super.key});
+class MyApp extends StatefulWidget {
+  const MyApp({super.key});
+
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  bool isDarkMode = false;
+
+  void toggleTheme(bool value) {
+    setState(() {
+      isDarkMode = value;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Silvra VPN',
-      theme: ThemeData.light(),
-      darkTheme: ThemeData.dark(),
-      themeMode: ThemeMode.system, // Will be controlled from settings later
       debugShowCheckedModeBanner: false,
-      home: const HomeScreen(),
+      theme: ThemeData.light(useMaterial3: true),
+      darkTheme: ThemeData.dark(useMaterial3: true),
+      themeMode: isDarkMode ? ThemeMode.dark : ThemeMode.light,
+      home: HomeScreen(
+        toggleTheme: toggleTheme,
+        isDarkMode: isDarkMode,
+      ),
     );
   }
 }

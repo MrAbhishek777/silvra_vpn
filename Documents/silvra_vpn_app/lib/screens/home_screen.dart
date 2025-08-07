@@ -1,9 +1,17 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'settings_screen.dart';
 import 'server_list_screen.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+  final bool isDarkMode;
+  final void Function(bool) toggleTheme;
+
+  const HomeScreen({
+    super.key,
+    required this.isDarkMode,
+    required this.toggleTheme,
+  });
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -53,9 +61,23 @@ class _HomeScreenState extends State<HomeScreen> {
         actions: [
           if (!isConnected)
             const Padding(
-              padding: EdgeInsets.only(right: 16.0),
+              padding: EdgeInsets.only(right: 8.0),
               child: Icon(Icons.workspace_premium, color: Colors.amber),
             ),
+          IconButton(
+            icon: const Icon(Icons.settings),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => SettingsScreen(
+                    isDarkMode: widget.isDarkMode,
+                    toggleTheme: widget.toggleTheme,
+                  ),
+                ),
+              );
+            },
+          ),
         ],
       ),
       body: Column(
