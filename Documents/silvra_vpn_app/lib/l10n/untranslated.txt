@@ -1,0 +1,131 @@
+{
+  "bn": [
+    "subscriptionRequired",
+    "premiumProtocolUpgradeMessage",
+    "upgradeNow",
+    "cancel",
+    "selectServer",
+    "freeTab",
+    "premiumTab"
+  ],
+
+  "de": [
+    "subscriptionRequired",
+    "premiumProtocolUpgradeMessage",
+    "upgradeNow",
+    "cancel",
+    "selectServer",
+    "freeTab",
+    "premiumTab"
+  ],
+
+  "es": [
+    "subscriptionRequired",
+    "premiumProtocolUpgradeMessage",
+    "upgradeNow",
+    "cancel",
+    "selectServer",
+    "freeTab",
+    "premiumTab"
+  ],
+
+  "fr": [
+    "subscriptionRequired",
+    "premiumProtocolUpgradeMessage",
+    "upgradeNow",
+    "cancel",
+    "selectServer",
+    "freeTab",
+    "premiumTab"
+  ],
+
+  "gu": [
+    "subscriptionRequired",
+    "premiumProtocolUpgradeMessage",
+    "upgradeNow",
+    "cancel",
+    "selectServer",
+    "freeTab",
+    "premiumTab"
+  ],
+
+  "hi": [
+    "subscriptionRequired",
+    "premiumProtocolUpgradeMessage",
+    "upgradeNow",
+    "cancel",
+    "selectServer",
+    "freeTab",
+    "premiumTab"
+  ],
+
+  "ja": [
+    "subscriptionRequired",
+    "premiumProtocolUpgradeMessage",
+    "upgradeNow",
+    "cancel",
+    "selectServer",
+    "freeTab",
+    "premiumTab"
+  ],
+
+  "kn": [
+    "subscriptionRequired",
+    "premiumProtocolUpgradeMessage",
+    "upgradeNow",
+    "cancel",
+    "selectServer",
+    "freeTab",
+    "premiumTab"
+  ],
+
+  "mr": [
+    "subscriptionRequired",
+    "premiumProtocolUpgradeMessage",
+    "upgradeNow",
+    "cancel",
+    "selectServer",
+    "freeTab",
+    "premiumTab"
+  ],
+
+  "pa": [
+    "subscriptionRequired",
+    "premiumProtocolUpgradeMessage",
+    "upgradeNow",
+    "cancel",
+    "selectServer",
+    "freeTab",
+    "premiumTab"
+  ],
+
+  "ta": [
+    "subscriptionRequired",
+    "premiumProtocolUpgradeMessage",
+    "upgradeNow",
+    "cancel",
+    "selectServer",
+    "freeTab",
+    "premiumTab"
+  ],
+
+  "te": [
+    "subscriptionRequired",
+    "premiumProtocolUpgradeMessage",
+    "upgradeNow",
+    "cancel",
+    "selectServer",
+    "freeTab",
+    "premiumTab"
+  ],
+
+  "ur": [
+    "subscriptionRequired",
+    "premiumProtocolUpgradeMessage",
+    "upgradeNow",
+    "cancel",
+    "selectServer",
+    "freeTab",
+    "premiumTab"
+  ]
+}
